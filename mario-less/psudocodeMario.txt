@@ -1,0 +1,24 @@
+The exercice commmand for "height" but I decided to add some lines before to ask for the height. The reason is to make my program
+more user friendly. Avoiding to ask just "Height: ?"
+
+* Prompt for input
+    get_int
+        additional logical to make sure that the heights is within the range
+            check if the value is not out of the range otherwhise reprompt => considere a loop ie. do while loop
+                the condition to validate the range indicated
+
+* Build the pyramide, first left aligned
+    a for loop to repeat a block of codes some number of times
+        code a program that print out the appropriate number of hashes
+            print a new line depending on the height of pyramide and the row number
+
+        .......# dots 7 hash 1
+        ......## dots 6 hash 2
+        .....### dots 5 hash 3
+        ....#### dots 4 hash 4
+        ...##### dots 3 hash 5
+        ..###### dots 2 hash 6
+        .####### dots 1 hash 7
+        ######## dots 0 hash 8
+
+Inspired by https://www.youtube.com/watch?v=iviYixpXUm8 and https://www.youtube.com/watch?v=KdM6OrvcjPI
